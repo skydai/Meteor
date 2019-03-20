@@ -63,11 +63,11 @@
 
     <!-- downloader -->
     <string-array name="downloader_types">
-        <item>Mysplash Downloader</item>
+        <item>Meteor Downloader</item>
         <item>System Downloader</item>
     </string-array>
     <string-array name="downloader_type_values">
-        <item>mysplash</item>
+        <item>meteor</item>
         <item>system</item>
     </string-array>
 

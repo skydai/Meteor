@@ -67,7 +67,7 @@
             android:key="@string/key_downloader"
             android:entries="@array/downloader_types"
             android:entryValues="@array/downloader_type_values"
-            android:defaultValue="mysplash" />
+            android:defaultValue="meteor" />
 
         <ListPreference
             android:title="@string/settings_title_download_scale"

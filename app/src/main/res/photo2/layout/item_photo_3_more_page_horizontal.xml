@@ -58,7 +58,7 @@
                 android:layout_centerVertical="true"
                 android:layout_toEndOf="@id/item_photo_3_more_page_horizontal_avatar"
                 style="@style/subtitle_text"
-                tools:text="WangDaYeeeee"/>
+                tools:text="zhiyang"/>
 
         </RelativeLayout>
 

@@ -147,7 +147,7 @@ public class ShortcutsManager {
                             .setShortLabel(AuthManager.getInstance().getUser().username)
                             .setLongLabel(AuthManager.getInstance().getUser().username)
                             .setIntent(
-                                    new Intent("com.wangdaye.mysplash.Me")
+                                    new Intent("com.zhiyang.meteor.Me")
                                             .putExtra(MeActivity.EXTRA_BROWSABLE, true))
                             .setRank(1)
                             .build());

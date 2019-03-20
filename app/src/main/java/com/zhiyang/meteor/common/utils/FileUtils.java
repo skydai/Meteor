@@ -37,7 +37,7 @@ public class FileUtils {
                 return false;
             }
         }
-        File dirFile2 = new File(Environment.getExternalStorageDirectory().toString() + "/Pictures/Mysplash");
+        File dirFile2 = new File(Environment.getExternalStorageDirectory().toString() + "/Pictures/Meteor");
         if (!dirFile2.exists()) {
             if (!dirFile2.mkdir()) {
                 NotificationHelper.showSnackbar(c.getString(R.string.feedback_create_file_failed) + " -2");
@@ -57,7 +57,7 @@ public class FileUtils {
         if (!f.exists()) {
             return false;
         }
-        f = new File(Environment.getExternalStorageDirectory().toString() + "/Pictures/Mysplash");
+        f = new File(Environment.getExternalStorageDirectory().toString() + "/Pictures/Meteor");
         if (!f.exists()) {
             return false;
         }
@@ -77,7 +77,7 @@ public class FileUtils {
         if (!f.exists()) {
             return false;
         }
-        f = new File(Environment.getExternalStorageDirectory().toString() + "/Pictures/Mysplash");
+        f = new File(Environment.getExternalStorageDirectory().toString() + "/Pictures/Meteor");
         if (!f.exists()) {
             return false;
         }

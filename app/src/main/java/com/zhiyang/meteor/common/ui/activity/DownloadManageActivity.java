@@ -63,7 +63,7 @@ public class DownloadManageActivity extends ReadWriteActivity
 
     private List<OnDownloadListener> listenerList;
 
-    public static final String ACTION_DOWNLOAD_MANAGER = "com.wangdaye.mysplash.DownloadManager";
+    public static final String ACTION_DOWNLOAD_MANAGER = "com.zhiyang.meteor.DownloadManager";
 
     // we can get a boolean object from intent by using this string as a key.
     // If is true, that means this activity was opened by click downloading notification.

@@ -22,7 +22,7 @@
         android:theme="@style/MysplashTheme"
         android:supportsRtl="true"
         android:largeHeap="true"
-        android:taskAffinity="com.wangdaye.mysplash"
+        android:taskAffinity="com.zhiyang.meteor"
         android:allowTaskReparenting="true"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning,ManifestResource"
         tools:targetApi="p">
@@ -37,7 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.wangdaye.mysplash.Search" />
+                <action android:name="com.zhiyang.meteor.Search" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -93,7 +93,7 @@
             android:screenOrientation="user"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.wangdaye.mysplash.Me" />
+                <action android:name="com.zhiyang.meteor.Me" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -117,7 +117,7 @@
             android:launchMode="singleTask"
             android:label="@string/app_name">
             <intent-filter>
-                <action android:name="com.wangdaye.mysplash.DownloadManager" />
+                <action android:name="com.zhiyang.meteor.DownloadManager" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
@@ -251,10 +251,10 @@
                 android:value="@color/colorPrimary_dark" />
             <meta-data
                 android:name="settingsActivity"
-                android:value="com.wangdaye.mysplash.common.ui.activity.muzei.MuzeiSettingsActivity" />
+                android:value="com.zhiyang.meteor.common.ui.activity.muzei.MuzeiSettingsActivity" />
             <meta-data
                 android:name="replacement"
-                android:value="com.wangdaye.mysplash"/>
+                android:value="com.zhiyang.meteor"/>
         </service>
 
         <!-- provider. -->
@@ -271,7 +271,7 @@
             </intent-filter>
             <meta-data
                 android:name="settingsActivity"
-                android:value="com.wangdaye.mysplash.common.ui.activity.muzei.MuzeiSettingsActivity" />
+                android:value="com.zhiyang.meteor.common.ui.activity.muzei.MuzeiSettingsActivity" />
         </provider>
 
         <provider

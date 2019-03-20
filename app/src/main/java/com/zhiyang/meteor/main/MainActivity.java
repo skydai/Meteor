@@ -86,7 +86,7 @@ public class MainActivity extends LoadableActivity<Photo>
 
     @Inject LikeOrDislikePhotoPresenter likeOrDislikePhotoPresenter;
 
-    public static final String ACTION_SEARCH = "com.wangdaye.mysplash.Search";
+    public static final String ACTION_SEARCH = "com.zhiyang.meteor.Search";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

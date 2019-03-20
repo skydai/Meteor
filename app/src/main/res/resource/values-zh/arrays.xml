@@ -51,7 +51,7 @@
 
     <!-- 下载器类型 -->
     <string-array name="downloader_types">
-        <item>Mysplash下载器</item>
+        <item>Meteor下载器</item>
         <item>系统下载器</item>
     </string-array>
 

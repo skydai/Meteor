@@ -18,8 +18,8 @@
 
 -ignorewarnings
 
--keep class com.wangdaye.mysplash.common.db.** { *; }
--keep class com.wangdaye.mysplash.common.network.json.** { *; }
+-keep class com.zhiyang.meteor.common.db.** { *; }
+-keep class com.zhiyang.meteor.common.network.json.** { *; }
 
 -dontskipnonpubliclibraryclassmembers
 -printconfiguration

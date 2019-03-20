@@ -36,8 +36,8 @@ public class PathDialog extends MysplashDialogFragment {
         ((ClipboardManager) Objects.requireNonNull(getActivity()).getSystemService(Context.CLIPBOARD_SERVICE))
                 .setPrimaryClip(
                         ClipData.newPlainText(
-                                "storage/emulated/0/Pictures/Metero",
-                                "storage/emulated/0/Pictures/Metero"));
+                                "storage/emulated/0/Pictures/Meteor",
+                                "storage/emulated/0/Pictures/Meteor"));
     }
 
     @OnClick(R.id.dialog_path_enterBtn) void enter() {

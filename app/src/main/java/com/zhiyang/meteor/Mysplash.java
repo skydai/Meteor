@@ -37,9 +37,9 @@ import java.util.List;
 import javax.inject.Inject;
 
 /**
- * Mysplash.
+ * Meteor.
  *
- * Application class for Mysplash.
+ * Application class for Meteor.
  *
  * */
 
@@ -68,7 +68,7 @@ public class Mysplash extends Application
     public static final String UNSPLASH_SUBMIT_URL = "https://unsplash.com/submit";
     public static final String UNSPLASH_LOGIN_CALLBACK = "unsplash-auth-callback";
 
-    public static final String DOWNLOAD_PATH = "/Pictures/Mysplash/";
+    public static final String DOWNLOAD_PATH = "/Pictures/Meteor/";
     public static final String DOWNLOAD_PHOTO_FORMAT = ".jpg";
     public static final String DOWNLOAD_COLLECTION_FORMAT = ".zip";
     @StringDef({DOWNLOAD_PHOTO_FORMAT, DOWNLOAD_COLLECTION_FORMAT})

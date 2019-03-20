@@ -66,7 +66,7 @@
         android:layout_marginEnd="@dimen/normal_margin"
         android:layout_marginBottom="@dimen/normal_margin"
         style="@style/subtitle_text"
-        tools:text="An developer from Qingdao, Chinaaaaaaa. Contact me by email : Wangdayeeeeee@gmail.com"
+        tools:text="corndai@gmail.com"
         tools:ignore="RtlHardcoded" />
 
 </RelativeLayout>

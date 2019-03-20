@@ -11,10 +11,9 @@ import java.util.Random;
 
 /**
  * Value utils.
- *
+ * <p>
  * An utils class to handle some values.
- *
- * */
+ */
 
 public class ValueUtils {
 
@@ -39,7 +38,7 @@ public class ValueUtils {
 
     public static String getDownloaderName(Context c, String key) {
         switch (key) {
-            case "mysplash":
+            case "meteor":
                 return c.getResources().getStringArray(R.array.downloader_types)[0];
 
             case "system":
@@ -206,12 +205,12 @@ public class ValueUtils {
         int count = total / perPage;
 
         List<Integer> oldList = new ArrayList<>();
-        for (int i = 0; i < count; i ++) {
+        for (int i = 0; i < count; i++) {
             oldList.add(i);
         }
 
         List<Integer> newList = new ArrayList<>();
-        for (int i = 0; i < count; i ++) {
+        for (int i = 0; i < count; i++) {
             newList.add(oldList.get(getRandomInt(oldList.size())));
         }
 
