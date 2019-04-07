@@ -207,7 +207,6 @@ public class MultiFilterFragment extends LoadableFragment<Photo>
         appBar.setOnNestedScrollingListener(this);
 
         Toolbar toolbar = v.findViewById(R.id.fragment_multi_filter_toolbar);
-        toolbar.setTitle(getString(R.string.action_multi_filter));
         ThemeManager.setNavigationIcon(
                 toolbar, R.drawable.ic_toolbar_menu_light, R.drawable.ic_toolbar_menu_dark);
         toolbar.setOnClickListener(v12 -> backToTop());

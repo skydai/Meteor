@@ -154,7 +154,6 @@
     <!-- menu. -->
     <string name="action_home">Home</string>
     <string name="action_collection">Raccolte</string>
-    <string name="action_multi_filter">Multi-filtro</string>
     <string name="action_category">Categoria</string>
     <string name="action_change_theme">Cambia tema</string>
     <string name="action_download_manage">Download</string>

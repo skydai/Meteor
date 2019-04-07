@@ -153,7 +153,6 @@
     <!-- menu. -->
     <string name="action_home">Home</string>
     <string name="action_collection">KOLEKSİYONLAR</string>
-    <string name="action_multi_filter">Çoklu-Filtre</string>
     <string name="action_category">Kategori</string>
     <string name="action_change_theme">Tema Değiştir</string>
     <string name="action_download_manage">İndirilenler</string>

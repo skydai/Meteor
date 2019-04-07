@@ -27,11 +27,6 @@
             android:title="@string/settings_title_night_end_time"
             android:key="@string/key_night_end_time" />
 
-        <Preference
-            android:title="@string/settings_title_custom_api_key"
-            android:key="@string/key_custom_api_key"
-            android:summary="@string/settings_summary_custom_api_key" />
-
         <ListPreference
             android:title="@string/settings_title_language"
             android:key="@string/key_language"

@@ -201,7 +201,6 @@
     <string name="action_following">Abonnements</string>
     <string name="action_collection">Collection</string>
     <string name="action_category">Catégories</string>
-    <string name="action_multi_filter">Filtre multiple</string>
     <string name="action_change_theme">Changer le thème</string>
     <string name="action_download_manage">Téléchargements</string>
     <string name="action_settings">Paramètres</string>
