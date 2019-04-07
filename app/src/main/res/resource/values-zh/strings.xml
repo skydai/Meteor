@@ -117,7 +117,7 @@
     <string name="feedback_no_filter">不存在过滤项</string>
 
     <string name="feedback_request_token_failed">获取访问权限失败</string>
-    <string name="feedback_login_text">登录你的Unsplash账号</string>
+    <string name="feedback_login_text">登录你的账号</string>
     <string name="feedback_please_login">请登录您的账号</string>
 
     <string name="feedback_edit_my_profile">编辑个人信息</string>
@@ -196,7 +196,6 @@
     <string name="action_home">主页</string>
     <string name="action_following">动态</string>
     <string name="action_collection">收藏集</string>
-    <string name="action_multi_filter">多项筛选</string>
     <string name="action_category">标签</string>
     <string name="action_selected">精选</string>
     <string name="action_change_theme">更换主题</string>

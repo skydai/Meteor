@@ -146,7 +146,7 @@
     <string name="feedback_no_filter">No filter options.</string>
 
     <string name="feedback_request_token_failed">Request access token failed.</string>
-    <string name="feedback_login_text">Login to your Unsplash account.</string>
+    <string name="feedback_login_text">Login In With Your Account.</string>
     <string name="feedback_please_login">Please login.</string>
 
     <string name="feedback_edit_my_profile">Edit profile</string>
@@ -227,7 +227,6 @@
     <string name="action_collection">Collection</string>
     <string name="action_category">Category</string>
     <string name="action_selected">Selected</string>
-    <string name="action_multi_filter">Multi-Filter</string>
     <string name="action_change_theme">Change Theme</string>
     <string name="action_download_manage">Downloads</string>
     <string name="action_settings">Settings</string>

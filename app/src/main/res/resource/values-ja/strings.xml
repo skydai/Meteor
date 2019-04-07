@@ -164,7 +164,6 @@
     <string name="action_following">フォロー中</string>
     <string name="action_collection">コレクション</string>
     <string name="action_category">カテゴリー</string>
-    <string name="action_multi_filter">マルチフィルター</string>
     <string name="action_change_theme">テーマを変更</string>
     <string name="action_download_manage">ダウンロード</string>
     <string name="action_settings">設定</string>

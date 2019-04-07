@@ -183,11 +183,6 @@ public class MainActivity extends LoadableActivity<Photo>
                     }
                     break;
 
-                case R.id.action_multi_filter:
-                    if (fragment instanceof MultiFilterFragment) {
-                        return ((MultiFilterFragment) fragment).loadMoreData(list, headIndex, headDirection);
-                    }
-                    break;
             }
         }
         return new ArrayList<>();
@@ -385,9 +380,6 @@ public class MainActivity extends LoadableActivity<Photo>
             case R.id.action_collection:
                 return new CollectionFragment();
 
-            case R.id.action_multi_filter:
-                return new MultiFilterFragment();
-
             case R.id.action_selected:
                 return new SelectedFragment();
 
@@ -403,9 +395,7 @@ public class MainActivity extends LoadableActivity<Photo>
             return R.id.action_following;
         } else if (f instanceof CollectionFragment) {
             return R.id.action_collection;
-        } else if (f instanceof MultiFilterFragment) {
-            return R.id.action_multi_filter;
-        } else { // SelectedFragment.
+        } else {
             return R.id.action_selected;
         }
     }
